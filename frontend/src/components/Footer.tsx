@@ -158,7 +158,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 border-t border-gray-300 pt-8 text-center">
           <p className="text-xs text-gray-500">
-            &copy; {new Date().getFullYear()} PSCyberCore. All rights reserved | Powered by CSD
+            &copy; {new Date().getFullYear()} PSCyberCore. All rights reserved | Powered by Calgary Software Developers
           </p>
         </div>
       </div>
