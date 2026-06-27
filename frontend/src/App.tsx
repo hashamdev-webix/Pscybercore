@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { Toaster } from "sonner";
 import HomePage from "./pages/HomePage";
 import SolutionsPage from "./pages/SolutionsPage";
 import IndustriesPage from "./pages/IndustriesPage";
@@ -26,6 +27,7 @@ function App() {
       }}
     >
       <ScrollToTop />
+      <Toaster position="top-right" richColors />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/solutions" element={<SolutionsPage />} />
